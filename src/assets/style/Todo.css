@@ -1,0 +1,65 @@
+.todo-container {
+    background-color: rgb(94, 96, 219);
+    padding: 3rem;
+    width: 35rem;
+    border: 2px solid rgba(112, 223, 186, 0.2);
+
+
+}
+
+.todo-container:nth-child(1) {
+    margin-top: 2rem;
+}
+
+.todo-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.todo {
+    color: white;
+    font-size: 21px;
+}
+
+.checkbox {
+    height: 1.6rem;
+    width: 1.6rem;
+    border: none;
+}
+
+.delete-todo__btn,
+.edit-todo__btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.fa-trash,
+.fa-pen {
+    font-size: 25px;
+    color: rgb(216, 203, 87);
+}
+
+.fa-trash:hover,
+.fa-pen:hover {
+    color: orange;
+    transform: scale(1.1);
+    transition: all ease-in-out .2s;
+
+}
+
+.edit-form {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-save {
+    padding: 1.27rem;
+    background-color: rgb(255, 0, 106);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
