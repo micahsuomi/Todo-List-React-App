@@ -29,3 +29,16 @@ input {
 
     
 }
+
+@media screen and (max-width: 500px) {
+    input {
+        width: 11rem;
+        padding: .5rem;
+
+    }
+
+    .add-todo {
+        padding: .76rem;
+    }
+}
+

@@ -20,7 +20,9 @@ body {
   justify-content: center;
   align-items: center;
   /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);  */
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);  
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);   */
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+
   /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
   padding: 10rem 6rem;
   min-height: 100vh;
@@ -31,5 +33,15 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 500px) {
+
+  .App {
+    padding: 0;
+
+  }
+  .app-header {
+    font-size: 25px;
+  }
+}
 
 

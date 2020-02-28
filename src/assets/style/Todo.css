@@ -17,8 +17,8 @@
 }
 
 .todo-wrapper {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 20% 50% 15% 15%;
     align-items: center;
 
 }
@@ -67,4 +67,43 @@
     text-transform: uppercase;
     color: white;
     font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+    .todo-container {
+        width: 22.5rem;
+        padding: 2.3rem 0;
+
+    }
+
+    .todo {
+        color: white;
+        font-size: 16px;
+    }
+
+    .checkbox {
+        height: 1.2rem;
+        width: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    .fa-trash,
+    .fa-pen {
+    font-size: 20px;
+    color: rgb(216, 203, 87);
+}
+}
+
+@media screen and (max-width: 320px) {
+    .todo-container {
+        width: 19.4rem;
+        padding: 2rem 0;
+
+    }
+
+    .add-todo {
+        padding: .76rem;
+    }
+
+    
 }
